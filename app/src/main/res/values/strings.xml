@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">宽带密码</string>
+    <string name="haoma">这里输入收信人号码</string>
+    <string name="neirong">这里输入发送内容</string>
+    <string name="queding">确定发送</string>
+    <string name="quanxianjiancha">发送失败？权限检查</string>
+    <string name="morenhaoma">10001999</string>
+    <string name="morenneirong">M</string>
+    <string name="dibu">免费开源，请勿用于商业用途</string>
+    <string name="xiangmudizhi">项目地址</string>
+    <string name="lianxizuozhe">联系作者</string>
+</resources>

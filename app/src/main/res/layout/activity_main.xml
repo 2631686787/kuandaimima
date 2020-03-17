@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="75dp"
+        android:orientation="vertical">
+        <EditText
+            style="@style/edittext_style"
+            android:id="@+id/haoma_edittext"
+            android:hint="@string/haoma"
+            android:inputType="number"
+            />
+        <EditText
+            style="@style/edittext_style"
+            android:layout_marginTop="20dp"
+            android:id="@+id/neirong_edittext"
+            android:hint="@string/neirong"
+             />
+        <Button
+            style="@style/button_style"
+            android:onClick="queding"
+            android:text="@string/queding"
+            />
+        <Button
+            style="@style/button_style"
+            android:onClick="jiancha"
+            android:text="@string/quanxianjiancha"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dibu"
+                />
+            <TextView
+                style="@style/url_text_style"
+                android:autoLink="web"
+                android:text="@string/xiangmudizhi"
+                android:onClick="xiangmudizhi"
+                />
+            <TextView
+                style="@style/url_text_style"
+                android:autoLink="web"
+                android:text="@string/lianxizuozhe"
+                android:onClick="lianxizuozhe"
+                />
+    </LinearLayout>
+</RelativeLayout>
